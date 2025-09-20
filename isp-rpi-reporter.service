@@ -10,7 +10,7 @@ Type=notify
 User=daemon
 Group=daemon
 WorkingDirectory=/opt/RPi-Reporter-MQTT2HA-Daemon/
-ExecStart=/usr/bin/python3 -u /opt/RPi-Reporter-MQTT2HA-Daemon/ISP-RPi-mqtt-daemon.py
+ExecStart=/opt/RPi-Reporter-MQTT2HA-Daemon/venv/bin/python3 -u /opt/RPi-Reporter-MQTT2HA-Daemon/ISP-RPi-mqtt-daemon.py
 StandardOutput=null
 StandardError=journal
 Environment=PYTHONUNBUFFERED=1
